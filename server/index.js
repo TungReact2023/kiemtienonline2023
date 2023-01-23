@@ -38,7 +38,7 @@ app.use(cors());
 //     });
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:4091",
+    origin: "https://kiemtienonline2023.web.app/",
     methods: ["GET", "POST"],
   },
 });
